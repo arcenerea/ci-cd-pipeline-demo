@@ -1,9 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>CI/CD Demo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CI/CD Pipeline Demo</title>
+    <style>
+      body {
+        font-family: monospace;
+        background-color: #0d1117;
+        color: #c9d1d9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .container {
+        text-align: center;
+        border: 1px solid #30363d;
+        padding: 3rem 4rem;
+        border-radius: 8px;
+        background-color: #161b22;
+      }
+      h1 { color: #1D9E75; font-size: 1.8rem; margin-bottom: 0.5rem; }
+      p { color: #8b949e; margin: 0.4rem 0; }
+      .badge {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.3rem 0.8rem;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        background-color: #1D9E75;
+        color: #0d1117;
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hola hola, este es mi primer despliegue con GitHub Actions 🚀</h1>
+    <div class="container">
+      <h1>CI/CD Pipeline Demo</h1>
+      <p>Deployed automatically via GitHub Actions</p>
+      <p>Jenkins · Docker · GitHub Actions</p>
+      <span class="badge">✔ Build successful</span>
+    </div>
   </body>
 </html>
